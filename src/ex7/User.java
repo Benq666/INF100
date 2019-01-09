@@ -34,7 +34,7 @@ public class User implements Comparable<User> {
     public static ArrayList<User> getUsers() {
         return users;
     }
-    
+
     public int compareTo (User otherUser) {
         return this.friends.size() - otherUser.friends.size();
     }
