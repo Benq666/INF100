@@ -1,12 +1,15 @@
 package sx2;
+
 import java.util.Formatter;
 import java.util.Random;
 
-/*
-This program writes the report to a file 'report.txt' instead of printing it to the terminal.
-The file is created in the root folder of a project or where the java file is located.
+/**
+ * This program writes the report to a file 'report.txt' instead of printing it to the terminal.
+ * The file is created in the root folder of a project or where the java file is located.
+ *
+ * @author Andrey Belinskiy
+ *
  */
-
 public class ahead {
     public static void main(String[] args) {
         double[] array = cooldownSamples(27, 100000);

@@ -1,16 +1,19 @@
 package sx3;
+
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*
-    This program emulates some of the functionality of the post office.
-    It registers information about sender and recipient of the parcel,
-    prints all registered parcels to the terminal, writes parcels to a file.
-    Finally, it can delete information about all registered parcels.
+/**
+ * This program emulates some of the functionality of the post office.
+ * It registers information about sender and recipient of the parcel,
+ * prints all registered parcels to the terminal, writes parcels to a file.
+ * Finally, it can delete information about all registered parcels.
+ *
+ * @author Andrey Belinskiy
+ *
  */
-
 public class Problem7 {
     public static void main(String[] args) {
         ArrayList<Parcel> savedParcels = new ArrayList<>();

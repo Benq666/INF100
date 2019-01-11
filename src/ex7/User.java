@@ -1,6 +1,13 @@
 package ex7;
+
 import java.util.ArrayList;
 
+/**
+ * A single user of a social network.
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class User implements Comparable<User> {
     private String name;
     private ArrayList<User> friends;

@@ -1,6 +1,11 @@
 package sx1;
 
-// in this program we calculate the probability of Jack's death after n steps over 100000 runs.
+/**
+ * In this program we calculate the probability of Jack's death after n steps over 100000 runs.
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class Semester1_Ahead {
     public static void main(String[] args) {
         int array[] = new int[100000];

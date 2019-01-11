@@ -1,8 +1,11 @@
 package sx1;
 
-/*
- *       Pirate Survival Simulator 1.0
- *    This small program emulates movements of pirate Jack on the island of Mojang.
+/**
+ * Pirate Survival Simulator 1.0
+ * This small program emulates movements of pirate Jack on the island of Mojang.
+ *
+ * @author Andrey Belinskiy
+ *
  */
 public class Semester1_Problem5 {
     public static void main(String[] args) {

@@ -1,13 +1,17 @@
 package ex3;
-/*
+
+import java.util.Scanner;
+
+/**
  *
  *    Simple dice emulation program.
  *    Two dice, input data checking, loops and exit menu.
  *
  *    + separate method for dice rolls.
  *
+ * @author Andrey Belinskiy
+ *
  */
-import java.util.Scanner;
 public class Ex3Ahead {
     static int diceRoll() {       // method that returns random number from 1 to 6
         return (int)(1+6*Math.random());

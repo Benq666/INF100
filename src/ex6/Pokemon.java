@@ -1,6 +1,13 @@
 package ex6;
+
 import java.util.Random;
 
+/**
+ * A pokemon with stats.
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class Pokemon {
     private String name;
     private int healthPoints;

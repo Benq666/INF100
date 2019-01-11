@@ -1,16 +1,19 @@
 package ex3;
-/*
- * 
+
+import java.util.Scanner;
+
+/**
+ *
  *    Simple dice emulation program.
  *    Two dice, input data cheking, loops and exit menu.
- * 
+ *
  *    (I've put several input checks iside loops. Later I discovered, that it's better
  *    to put those checks in separate loops. It's hard to restructure the program now,
  *    but I'll use this method in next exercises).
- * 
- * 
+ *
+ * @author Andrey Belinskiy
+ *
  */
-import java.util.Scanner;
 public class Ex3problem3 {
     public static void main(String[] args) { 
         Scanner in = new Scanner(System.in);

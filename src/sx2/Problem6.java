@@ -1,12 +1,15 @@
 package sx2;
+
 import java.util.Random;
 
-/*
-    This program calculates the time of victim's death,
-    using temperature of a body and other methods to get the estimated time of death.
-    And then it prints this information out in a convenient way.
-*/
-
+/**
+ * This program calculates the time of victim's death,
+ * using temperature of a body and other methods to get the estimated time of death.
+ * And then it prints this information out in a convenient way.
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class Problem6 {
     public static void main(String[] args) {
         double[] array = cooldownSamples(27, 100000);

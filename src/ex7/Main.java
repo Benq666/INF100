@@ -1,11 +1,14 @@
 package ex7;
+
 import java.util.Collections;
 
-/*
-        This program implements basic system
-        that stores information about users and their friends.
+/**
+ * This program implements basic system
+ * that stores information about users and their friends.
+ *
+ * @author Andrey Belinskiy
+ *
  */
-
 public class Main {
     public static void main(String[] args) {
         User bob = new User("Bob");

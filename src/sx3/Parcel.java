@@ -1,6 +1,13 @@
 package sx3;
+
 import java.util.UUID;
 
+/**
+ * A parcel that needs to be sent.
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class Parcel {
     private Person sender;
     private Person recipient;

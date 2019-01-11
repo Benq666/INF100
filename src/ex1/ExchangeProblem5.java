@@ -1,11 +1,14 @@
 package ex1;
+
 import java.util.Scanner;
 
 /**
  * Simple NOK conversion to some of the other currencies
  * without loop and check of input data
+ *
+ * @author Andrey Belinskiy
+ *
  */
-
 public class ExchangeProblem5 {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);

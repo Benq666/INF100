@@ -1,7 +1,13 @@
 package ex4;
+
 import java.util.Arrays;
 
-// This program shuffles the deck (array) of 13 cards and then prints it out on the terminal.
+/**
+ * This program shuffles the deck (array) of 13 cards and then prints it out on the terminal.
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class problem4 {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(shuffledDeck()));

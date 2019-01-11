@@ -1,5 +1,11 @@
 package sx3;
 
+/**
+ * An address of some place.
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class Address {
     private String street;
     private int streetNumber;

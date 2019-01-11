@@ -1,16 +1,19 @@
 package ex5;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*
-    This program reads two files with names of students and graders
-    then assigns students to each grader as evenly as possible
-    and finally writes acquired information to a file.
+/**
+ * This program reads two files with names of students and graders
+ * then assigns students to each grader as evenly as possible
+ * and finally writes acquired information to a file.
+ *
+ * @author Andrey Belinskiy
+ *
  */
-
 public class Problem3 {
     public static void main(String[] args) {
         try {

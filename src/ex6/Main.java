@@ -1,10 +1,13 @@
 package ex6;
+
 import java.util.Scanner;
 
-/*
-    This program recreates basic features of a pokemon game.
+/**
+ * This program recreates basic features of a pokemon game.
+ *
+ * @author Andrey Belinskiy
+ *
  */
-
 public class Main {
     public static void main(String[] args) {
         Pokemon poke1 = namePoke("first");

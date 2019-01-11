@@ -1,6 +1,11 @@
 package ex4;
 
-// This program shuffles the deck (2d array) of 52 cards and then prints it out on the terminal
+/**
+ * This program shuffles the deck (2d array) of 52 cards and then prints it out on the terminal
+ *
+ * @author Andrey Belinskiy
+ *
+ */
 public class ahead {
     public static void main(String[] args) {
         System.out.printf("Sorted deck:");
